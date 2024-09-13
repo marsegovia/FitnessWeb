@@ -1,0 +1,25 @@
+Horarios: Un calendario de las clases y horarios de apertura del gimnasio. Esta sección podría incluir una 
+funcionalidad para reservar clases en línea.
+
+Blog: Artículos y recursos sobre fitness, nutrición, entrenamientos, bienestar, y consejos de salud. 
+Es una buena manera de mantener a los miembros comprometidos y atraer a nuevos visitantes.
+
+Galería: Fotos y videos del gimnasio, eventos, clases en acción, y transformaciones de miembros. 
+Esto ayuda a dar una imagen real del ambiente del gimnasio.
+
+Testimonios: Comentarios y reseñas de clientes satisfechos. Los testimonios pueden ayudar a construir credibilidad 
+y atraer a nuevos miembros.
+
+Eventos: Información sobre eventos especiales, como desafíos de fitness, talleres, seminarios, o 
+actividades de la comunidad.
+
+Tienda: Si el gimnasio vende productos, puedes incluir una tienda en línea para vender ropa de entrenamiento, suplementos, equipo, y más.
+
+Contacto: Formulario de contacto, dirección del gimnasio, números de teléfono, correo electrónico, y 
+enlaces a redes sociales. Incluir un mapa interactivo también es útil.
+
+Preguntas Frecuentes (FAQ): Respuestas a preguntas comunes que los visitantes podrían tener sobre el gimnasio, 
+membresías, clases, etc.
+
+Únete/Registro: Una sección donde los visitantes puedan registrarse para convertirse en miembros, 
+con un formulario de inscripción en línea.

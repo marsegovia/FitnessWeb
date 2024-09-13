@@ -1,0 +1,253 @@
+body{/* Purple Love Gradient */
+    background: #cc2b5e, #753a88;
+    background: -webkit-linear-gradient(90deg, #cc2b5e, #753a88);
+    background: linear-gradient(90deg, #cc2b5e, #753a88);
+    margin-top: 120px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.Main{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+    border-radius: 20px 30px 25px 40px;
+    border: 1px solid none;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background:#753a88, #cc2b5e;
+    background: -webkit-linear-gradient(70deg, #753a88, #cc2b5e);
+    background: linear-gradient(20deg, #753a88, #cc2b5e);
+}
+
+.pesoxedad{
+    display: flex;
+    flex-direction: row;
+}
+
+.Main2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Pesoedad{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    font-size: 30px;
+    font-family: Empire;
+    color: aliceblue;
+}
+
+.Pesoedad input{
+    height: 3em;
+    width: 10em;
+    border-radius: 1em;
+    border: 1px solid black;
+    margin-right: 18px;
+    font-size: 18px;
+}
+
+.Pesoedad input::placeholder{
+    color: gray;
+    font-size: 18px;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.TMB{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    font-family: Empire;
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.TMB span{
+    color: wheat;
+}
+
+.Termo{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    font-family: Empire;
+    color: aliceblue;
+    margin-right: 20px;
+}
+
+.Termo span{
+    color: wheat;
+}
+
+
+.Total{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    font-size: 35px;
+    font-family: Empire;
+    color: aliceblue;
+}
+
+.Total span{
+    color: wheat;
+}
+
+.diferencia{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    font-size: 28px;
+    font-family: Empire;
+    color: aliceblue;
+}
+
+.sup{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.sup span{
+    color: wheat;
+}
+
+.def{
+    display: flex;
+    flex-direction: column;
+}
+
+.def span{
+    color: wheat;
+}
+
+.boton{
+    border-radius: 20px;
+    margin-right: 20px;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    background-color: wheat;
+}
+
+.boton:hover{
+    color: white;
+    background-color: #cc2b5e;
+}
+
+.textos{
+    width: 1000px; 
+    margin-left: 100px;
+}
+
+@font-face {
+    font-family: Empire;
+    src: url('./Fonts/aAbsoluteEmpire.otf');
+}
+
+
+@media screen and (max-width: 400px){
+
+    .Main{
+        margin-left: -90px;
+        justify-content: center;
+        align-items: center;
+        width: 340px;
+        height: 650px;
+    }
+
+    .pesoxedad{
+        margin-top: -20px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+    }
+
+    .Pesoedad{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5px;
+        font-size: 22px;
+    }
+
+    .Pesoedad label{
+        margin-top: 10px;
+        display: flex;
+    }
+
+    .Pesoedad input{
+        display: flex;
+        height: 2em;
+        width: 6em;
+        border-radius: 1em;
+        font-size: 15px;
+    }
+    
+    .Pesoedad input::placeholder{
+        color: gray;
+        font-size: 11px;
+    }
+    
+    .Main2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 50px;
+    }
+
+    .Total{
+        margin-top: 30px;
+        font-size: 21px;
+        margin-left: 8px;
+        font-weight: bold;
+    }
+
+    .diferencia{
+        margin-left: 8px;
+        margin-top: 26px;
+        display: flex;
+        font-size: 22px;
+    }
+
+    .boton{
+        font-size: 18px;
+        height: 38px;
+        width: 140px;
+    }
+
+    .botones{
+        margin-left: 20px;
+    }
+    
+    .textos{
+        margin-left: -100px;
+        width: 350px;
+    }
+
+    .textos img{
+        height: 110px;
+        width: 350px;
+        margin-left: 3px;
+    }
+
+    .imagen2{
+        margin-left: -98px;
+        height: 200px;
+        width: 350px;
+    }
+    
+}

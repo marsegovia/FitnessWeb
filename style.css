@@ -1,0 +1,470 @@
+body{
+    background-image: url('./baner_web.jpg');
+    background-repeat: no-repeat;
+    background-size: 150%;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 6em;
+}
+
+.menu_nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -8px;
+    list-style: none;
+    margin-right: -13em;
+}
+
+.menu_nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+    padding: 1.33em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.menu_nav li a:hover{
+    background-color: red;
+    transition: background-color 0.5s;
+}
+
+.boton_menu{
+    background-color: red;
+    border: none;
+    padding: 1em;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.boton_menu:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+
+.logo_web{
+    margin-top: 1em;
+    margin-left: -14em;
+    height: 5em;
+}
+
+.banner{
+    width: 100%;
+}
+
+.texto_banner{
+    display: flex;
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: atleti;
+    -webkit-text-stroke: 2px white; /* Agrega un stroke anaranjado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Sombra para dar más contraste */
+    font-weight: bold;
+    word-break: break-word;
+    white-space: normal;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.highlight {
+    color: red; /* Cambia el color solo de "SOUL" */
+    -webkit-text-stroke: 2px red; /* Stroke blanco para destacarlo */
+}
+
+.Nosotros{
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.visMis{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align:justify;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 6em;
+}
+
+.visMis h2{
+    text-align: center;
+}
+
+.begin{
+    margin-top: 4em;
+    margin-left: 35%;
+    width: 25em;
+    border-radius: 3em;
+    background-color: red;
+    color: white;
+    border: none;
+    height: 3em;
+}
+
+.begin:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+
+.TituloClases{
+    margin-top: 5em;
+    text-align: center;
+    align-items: center;
+    padding: 0.5em;
+    font-family: atleti;
+    background-color: black;
+    color: white;
+}
+
+.activ_grupales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 1em;
+}
+
+.titulo_clase{
+    background-color: #c71d1c;
+    padding: 10px;
+    margin-top: -0.3em;
+    margin-bottom: -0.1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ejercicios{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imagen1{
+    height: 200px;
+}
+
+.imagen2{
+    height: 200px;
+    width: 322px;
+}
+
+.activ_conteiner{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: none;
+    height: 500px;
+    box-shadow: 0.3em 0.3em 0.4em;
+    background-color: black
+}
+
+.activ_conteiner h3{
+    text-align: center;
+}
+
+.activ_conteiner p{
+    color: white;
+    text-align: justify;
+    text-align: center;
+    margin-left: 0.3em;
+    margin-right: 0.3em;
+    margin-top: 0.5em;
+}
+
+.activ_conteiner2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 40em;
+    border-radius: 3em 0em 0em 3em;
+    width: 30%;
+    /* Decent Gradient */
+    /* Bloody Mary Gradient */
+background: #FF512F, #DD2476;
+background: -webkit-linear-gradient(180deg, #FF512F, #DD2476);
+background: linear-gradient(180deg, #FF512F, #DD2476);
+box-shadow: 0.3em 0.3em 0.1em 0.3em;
+background-color: black
+}
+
+.activ_conteiner2 h3{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 3em;
+    font-family: atleti;
+    -webkit-text-stroke: 2px black; /* Agrega un stroke anaranjado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar más contraste */
+}
+
+.activ_conteiner2 h4{
+    text-align: center;
+    margin-top: 1em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.activ_conteiner2 li{
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.activ_conteiner2 ul{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.activ_conteiner3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    height: 40em;
+    border-radius: 0em 3em 3em 0em;
+    width: 30%;
+background: #44A08D, #093637;
+background: -webkit-linear-gradient(30deg, #093637, #44A08D);
+background: linear-gradient(30deg, #0f5657,#44A08D);
+box-shadow: 0.2em 0.3em 0.1em 0.3em;
+background-color: black
+}
+
+.activ_conteiner3 h3{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 3em;
+    font-family: atleti;
+    -webkit-text-stroke: 2px black; /* Agrega un stroke anaranjado */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para dar más contraste */
+}
+
+.activ_conteiner3 h4{
+    text-align: center;
+    margin-top: 1em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.activ_conteiner3 li{
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.activ_conteiner3 ul{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.footer{
+    margin-top: 4em;
+    background-color: black;
+    margin-bottom: -2em;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.footer_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.footer h4{
+    color: red;
+}
+
+.boton_footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.boton_footer h3{
+    text-align: center;
+}
+
+.boton_footer a{
+    display: inline-block; background-color: red; 
+    padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold;
+    text-align: center; color: black;
+}
+
+.fa-cc-visa{
+    font-size: 3em;
+}
+
+.fa-cc-mastercard{
+    font-size: 3em;
+}
+
+.fa-cc-diners-club{
+    font-size: 3em;
+}
+
+@font-face {
+    font-family: atleti;
+    src: url('./Fonts/Oldschool\ Tag.ttf');
+}
+
+
+/*  ================ resposive web ================== */
+@media (max-width: 768px) {
+    body{
+        background-size: 550%;
+    }
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        height: 6em;
+    }
+
+    .logo_web{
+        margin-top: 8em;
+        margin-left: 1em;
+        height: 5em;
+        width: 5em;
+        margin-left: 40%;
+    }
+
+    .menu_nav ul{
+        margin-top: 2em;
+        justify-content: center;
+        margin-right: 5em;
+    }
+    
+    .menu_nav li a{
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding: 1em;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .menu_nav li a:hover{
+        background-color: red;
+        transition: background-color 0.5s;
+    }
+    
+    .boton_menu{
+        background-color: red;
+        border: none;
+        padding: 0.5em;
+        font-size: 15px;
+    }
+
+    .texto_banner{
+        font-size: 3em;
+        margin-top: 3em;
+        justify-content: center;
+        margin-left: 10px;
+    }
+    
+    .begin{
+        margin-top: 3em;
+        margin-left: 10%;
+        width: 20em;
+        height: 3em;
+    }
+
+    .activ_grupales{
+        flex-direction: row;
+        margin-top: 1em;
+        flex-wrap: wrap;
+    }
+
+    .activ_conteiner{
+        margin-top: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+        height: 30em;
+    }
+
+    .ejercicios{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .activ_conteiner2{
+        border: 1px solid black;
+        height: 40em;
+        border-radius: 3em 3em 0em 0em;
+        width: 90%;
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+
+    .activ_conteiner3{
+        border: 1px solid black;
+        height: 40em;
+        border-radius: 0em 0em 3em 3em;
+        width: 90%;
+        margin-left: 1em;
+        margin-right: 2em;
+    }
+
+    .footer_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 2em;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    
+    .info{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .metodos_de_pago{
+        margin-top: 2em;
+    }
+
+    .FAQs{
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .Nosotros{
+        margin-top: 8em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .visMis{
+        flex-direction: column;
+        justify-content: space-between;
+        text-align:center;
+        margin-left: 0em;
+        margin-right: 0em;
+        margin-top: 2em;
+    }
+}
