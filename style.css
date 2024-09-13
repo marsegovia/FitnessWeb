@@ -289,9 +289,13 @@ background-color: black
     color: white;
 }
 
+.informacion{
+    display: flex;
+    flex-direction: column;
+}
+
 .footer_section{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     margin-top: 2em;
 }
@@ -456,7 +460,7 @@ background-color: black
     }
 
     .Nosotros{
-        margin-top: 8em;
+        margin-top: 12em;
         margin-left: 2em;
         margin-right: 2em;
     }
