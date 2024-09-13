@@ -1,5 +1,5 @@
 body{
-    background-image: url('./baner_web.jpg');
+    background-image: url('./Images/baner_web.jpg');
     background-repeat: no-repeat;
     background-size: 150%;
     margin: 0;
@@ -446,6 +446,8 @@ background-color: black
 
     .metodos_de_pago{
         margin-top: 2em;
+        display: flex;
+        flex-direction: row;
     }
 
     .FAQs{
