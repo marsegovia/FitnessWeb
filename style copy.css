@@ -1,10 +1,21 @@
-body{/* Purple Love Gradient */
-    background: #cc2b5e, #753a88;
-    background: -webkit-linear-gradient(90deg, #cc2b5e, #753a88);
-    background: linear-gradient(90deg, #cc2b5e, #753a88);
+body{
+    /* Afternoon Gradient */
+background: #000C40, #607D8B;
+background: -webkit-linear-gradient(90deg, #000C40, #607D8B);
+background: linear-gradient(90deg, #000C40, #607D8B);
     margin-top: 120px;
     margin-left: 100px;
     text-align: center;
+}
+
+.ancla{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.ancla:hover{
+    color: #F45C43;
 }
 
 .Main{
@@ -19,9 +30,10 @@ body{/* Purple Love Gradient */
     border: 1px solid none;
     box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    background:#753a88, #cc2b5e;
-    background: -webkit-linear-gradient(70deg, #753a88, #cc2b5e);
-    background: linear-gradient(20deg, #753a88, #cc2b5e);
+   /* Cherry Gradient */
+background: #EB3349, #F45C43;
+background: -webkit-linear-gradient(90deg, #EB3349, #F45C43);
+background: linear-gradient(90deg, #EB3349, #F45C43);
 }
 
 .pesoxedad{
@@ -153,6 +165,7 @@ input[type=number]::-webkit-outer-spin-button {
 .textos{
     width: 1000px; 
     margin-left: 100px;
+    color: white;
 }
 
 @font-face {

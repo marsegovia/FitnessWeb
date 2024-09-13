@@ -35,11 +35,6 @@ html, body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
-.menu_nav li a:hover{
-    background-color: red;
-    transition: background-color 0.5s;
-}
-
 .boton_menu{
     background-color: red;
     border: none;
@@ -51,11 +46,10 @@ html, body {
 }
 
 .boton_menu:hover{
-    background-color: white;
     color: black;
-    transition: 1s;
+    background-color: white;
+    transition: 0.5s ;
 }
-
 
 .logo_web{
     margin-top: 1em;
@@ -122,6 +116,8 @@ html, body {
     color: white;
     border: none;
     height: 3em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.2em;
 }
 
 .begin:hover{
