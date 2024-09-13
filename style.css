@@ -366,8 +366,8 @@ background-color: black
     .menu_nav li a{
         text-decoration: none;
         color: white;
-        font-size: 1em;
-        padding: 1em;
+        font-size: 1.2em;
+        padding: 0.5em;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     }
     
@@ -380,7 +380,7 @@ background-color: black
         background-color: red;
         border: none;
         padding: 0.5em;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .texto_banner{
@@ -392,7 +392,7 @@ background-color: black
     
     .begin{
         margin-top: 3em;
-        margin-left: 10%;
+        margin-left: 15%;
         width: 20em;
         height: 3em;
     }
